@@ -1,0 +1,48 @@
+* {
+    transition: all 0.4s;
+}
+html {
+    font-family: 'Raleway', sans-serif;
+}
+.page {
+    padding: 20px;
+}
+.tag-cloud {
+    border: 2px solid #657792;
+    border-radius: 6px;
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.tag {
+    text-decoration: none;
+    margin: 5px 15px;
+    display: inline-block;
+    cursor: pointer;
+    color: #222222;
+}
+.tag:hover {
+    color: #4553a2;
+    transform: scale(1.1)
+}
+.tag-info-lines {
+    padding: 20px;
+}
+.tag-info-lines div {
+    padding: 5px 0;
+}
+.button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: #4553a2;
+    color: #ffffff;
+}
+.button:hover {
+    background: #e2e2e2;
+    color: #4553a2;
+}
